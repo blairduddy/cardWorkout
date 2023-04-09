@@ -11,8 +11,6 @@ class CardSelectionVC: UIViewController {
     
     //outlets required to control image
     @IBOutlet var cardImageView: UIImageView!
-    //outlet required to control buttons
-    @IBOutlet var buttons: [UIButton]!
     
     //set a variable that will call card.allValues file and use as an array of assets
     var cards: [UIImage] = card.allValues
@@ -23,10 +21,6 @@ class CardSelectionVC: UIViewController {
         super.viewDidLoad()
         startTimer()
         
-        //button styling
-        for button in buttons {
-            button.layer.cornerRadius = 8
-        }
     }
     //Timer will stop when view changed/rules button clicks
     override func viewWillDisappear(_ animated: Bool) {
