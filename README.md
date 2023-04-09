@@ -16,3 +16,7 @@ This project is built using Storyboards and the Swift programming language.
 - Ability to stop on a random card
 - Restart the card selection process
 - View exercise rules for each suit in a separate "Rules" page
+
+
+![Simulator Screenshot - iPhone 14 Pro - 2023-04-09 at 11 58 23](https://user-images.githubusercontent.com/64046027/230783306-1c707105-9eb0-4ea1-b151-60f8d046193b.png)
+![Simulator Screenshot - iPhone 14 Pro - 2023-04-09 at 11 58 26](https://user-images.githubusercontent.com/64046027/230783313-24b5ea76-b42a-43cf-9d6e-ad25669f90d9.png)
